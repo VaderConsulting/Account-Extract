@@ -1,6 +1,6 @@
 # Account Extract
 
-VB6 working copy of `Account Extract` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: Users & Groups. Output: `AccountExtract.exe`. `VersionCompanyName`: CSC. Contains 2 project files.
+VB6 Domain Accounts / Users & Groups extractor (`AccountExtract.exe`) that enumerates users, groups, and computers from a domain controller via Active DS/WMI and can export results (v1 `UserExtract.vbp` plus `V2/`). Open either `.vbp` in the VB6 IDE.
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
@@ -10,8 +10,8 @@ _Note: original OneDrive LastWriteTime values were wiped to 2026-08-27 by a zip 
 
 | Project | Language | Type | Purpose |
 |---------|----------|------|---------|
-| `AccountExtract` (`UserExtract.vbp`) | VB6 | WinForms exe | Users & Groups |
-| `AccountExtract` (`V2/AccountExtract.vbp`) | VB6 | WinForms exe | Users & Groups |
+| `AccountExtract` (`UserExtract.vbp`) | VB6 | WinForms exe | Enumerate domain users/groups/computers |
+| `AccountExtract` (`V2/AccountExtract.vbp`) | VB6 | WinForms exe | V2 of domain account extract |
 
 ## How to open
 
